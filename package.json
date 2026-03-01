@@ -1,0 +1,83 @@
+{
+  "name": "dev-ouch",
+  "displayName": "Dev Ouch",
+  "description": "Play a fun sound when terminal commands fail.",
+  "version": "0.0.1",
+  "publisher": "abdul",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdul/dev-ouch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdul/dev-ouch/issues"
+  },
+  "homepage": "https://github.com/abdul/dev-ouch#readme",
+  "keywords": [
+    "terminal",
+    "sound",
+    "error",
+    "developer-tools"
+  ],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onTerminalShellIntegration",
+    "onCommand:devOuch.selectSound",
+    "onCommand:devOuch.playSound",
+    "onCommand:devOuch.enableAudio",
+    "onCommand:devOuch.angryAaah",
+    "onCommand:devOuch.faah",
+    "onCommand:devOuch.thud"
+  ],
+  "main": "./extension.js",
+  "files": [
+    "extension.js",
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "media/**"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "devOuch.selectSound",
+        "title": "Dev Ouch: Select Sound"
+      },
+      {
+        "command": "devOuch.playSound",
+        "title": "Dev Ouch: Play Active Sound"
+      },
+      {
+        "command": "devOuch.enableAudio",
+        "title": "Dev Ouch: Enable Audio"
+      },
+      {
+        "command": "devOuch.angryAaah",
+        "title": "Dev Ouch: Activate Angry Aaah"
+      },
+      {
+        "command": "devOuch.faah",
+        "title": "Dev Ouch: Activate Faah"
+      },
+      {
+        "command": "devOuch.thud",
+        "title": "Dev Ouch: Activate Thud"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "echo \"No lint step configured\"",
+    "test": "echo \"No tests configured\"",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2"
+  }
+}
