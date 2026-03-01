@@ -8,12 +8,12 @@
   "icon": "media/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abdul/dev-ouch.git"
+    "url": "https://github.com/abdulrehmannasir709-ops/dev-ouch.git"
   },
   "bugs": {
-    "url": "https://github.com/abdul/dev-ouch/issues"
+    "url": "https://github.com/abdulrehmannasir709-ops/dev-ouch/issues"
   },
-  "homepage": "https://github.com/abdul/dev-ouch#readme",
+  "homepage": "https://github.com/abdulrehmannasir709-ops/dev-ouch#readme",
   "keywords": [
     "terminal",
     "sound",
