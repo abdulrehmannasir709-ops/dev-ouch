@@ -3,7 +3,7 @@
   "displayName": "Dev Ouch",
   "description": "Play a fun sound when terminal commands fail.",
   "version": "0.0.1",
-  "publisher": "abdul",
+  "publisher": "devouchlabs",
   "license": "MIT",
   "icon": "media/icon.png",
   "repository": {
